@@ -1,0 +1,9 @@
+.box {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 20px;
+  background-color: rgba(211, 211, 211, 0.345);
+  padding: 15px;
+  border-radius: 17.5px;
+  text-align: left;
+}

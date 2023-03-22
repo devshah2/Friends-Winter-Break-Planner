@@ -1,0 +1,22 @@
+<head>
+    <title>Friends Break Planner</title>
+</head>
+<body>
+    
+    <h1>Hi {{name}}</h1>
+    <form>
+        <div>
+            <label>Arriving</label>
+            <input type="date" min="2023-6-1" max="2023-09-01" id="arriving">
+        </div>
+        <div>
+            <label>Leaving</label>
+            <input type="date" min="2023-6-1" max="2023-09-01" id="leaving">
+        </div>
+        <button type="submit">Update</button>
+    </form>
+</body>
+<script>
+    document.getElementById("arriving").value=`{{arriving}}`
+    document.getElementById("leaving").value=`{{leaving}}`
+</script>
